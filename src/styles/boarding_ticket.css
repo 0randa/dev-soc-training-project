@@ -1,0 +1,21 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f8f8; /* Optional: Background color */
+}
+
+.boarding-pass {
+    display: grid;
+    width: 70%; /* Adjust the width of your boarding pass */
+    height: 50%; /* Maintain aspect ratio */
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow for aesthetics */
+}
+
+.header {
+    height: 10%;
+    background-color: red;
+}
