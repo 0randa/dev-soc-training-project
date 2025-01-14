@@ -4,6 +4,10 @@
     align-items: center;
     height: 100vh; /* Full viewport height */
     background-color: #f8f8f8; /* Optional: Background color */
+    background-image: url('../images/airport2.avif');
+    background-size: contain;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
 }
 
 .boarding-pass {
@@ -14,14 +18,43 @@
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow for aesthetics */
     grid-template-rows: 1fr 5fr 0.5fr;
+    border-radius: 40px;
+    overflow: hidden
+}
+
+.header, .middle-section, .bottom-section {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
 }
 
 .header {
     background-color: red;
 }
 
+.header-left-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.header img {
+    height: 60px;
+    padding-left: 40px;
+}
+
 .middle-section {
     background-color: lightgray;
+}
+
+.middle-section-left-column {
+    display: grid;
+    padding-left: 5px;
+}
+
+.middle-section-right-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .bottom-section {
