@@ -80,6 +80,11 @@
     align-items: center;
 }
 
+.top-row-boxes img {
+    width: 50%;
+    height: auto;
+}
+
 .middle-section-right-column {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
