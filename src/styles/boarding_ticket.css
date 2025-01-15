@@ -50,6 +50,20 @@
 .middle-section-left-column {
     display: grid;
     padding-left: 5px;
+    grid-template-rows: 3fr 1fr;
+}
+
+.middle-section-top-row {
+
+}
+
+.middle-section-bottom-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom-row-boxes {
+    
 }
 
 .middle-section-right-column {
