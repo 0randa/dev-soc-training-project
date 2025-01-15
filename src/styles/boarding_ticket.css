@@ -54,7 +54,8 @@
 }
 
 .middle-section-top-row {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .middle-section-bottom-row {
@@ -62,7 +63,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.bottom-row-boxes {
+
+
+.top-row-boxes, .bottom-row-boxes {
     display: flex;
     flex-direction: column;
     justify-content: center;
