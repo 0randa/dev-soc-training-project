@@ -2,22 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: #f8f8f8; /* Optional: Background color */
+    height: 100vh;
+    background-color: #f8f8f8; 
     background-image: url('../images/airport2.avif');
     background-size: contain;
-    background-position: center; /* Center the image */
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .boarding-pass {
     display: grid;
-    width: 70%; /* Adjust the width of your boarding pass */
-    height: 50%; /* Maintain aspect ratio */
+    width: 70%; 
+    height: 50%; 
     background: white;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow for aesthetics */
-    grid-template-rows: 1fr 5fr 0.5fr;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    grid-template-rows: 1fr 5fr 1fr;
     border-radius: 40px;
     overflow: hidden
 }
@@ -73,4 +73,14 @@
 
 .bottom-section {
     background-color: red;
+    color: white; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    padding: 1rem; 
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
